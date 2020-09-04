@@ -12,6 +12,7 @@ do
 done
 
 # sudo apt install -y autojump
+exec $SHELL
 
 #####
 #   Next generation will have a separate keyfile { rcfile='path', etc. }
