@@ -27,3 +27,7 @@ alias update='sudo apt update -y && apt list --upgradeable' # Update Package Man
 alias upgrade='sudo apt upgrade -y' # Upgrade apt
 alias x='~/.io/.sec/.x' # Secret secrets
 alias xtab='~/.io/xtab' # Open command in new XFCE Terminal tab
+alias ..='cd ..' # Up 1
+alias ...='cd ../..' # Up 2
+alias ....='cd ../../..' # Up 3
+alias ....='cd ../../../..' # Up 4
