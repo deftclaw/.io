@@ -1,0 +1,21 @@
+#!/bin/bash
+
+UNSORTED=$1
+
+case $UNSORTED in
+  al)
+  UNSORTED="$HOME/.io/config/.aliases"
+  echo "Sorted aliases"
+  ;;
+  *)
+    echo "Sorted $UNSORTED"
+esac
+
+sort $UNSORTED > /tmp/sorting
+
+mv \
+  -f \
+  /tmp/sorting $UNSORTED
+
+#sort $HOME/.io/.aliases > $HOME/.io/AKA
+#mv ~/.io/AKA ~/.io/.aliases -f

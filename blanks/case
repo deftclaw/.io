@@ -1,0 +1,18 @@
+     1	case EXPRESSION in
+     2	
+     3	  PATTERN_1)
+     4	    STATEMENTS
+     5	    ;;
+     6	
+     7	  PATTERN_2)
+     8	    STATEMENTS
+     9	    ;;
+    10	
+    11	  PATTERN_N)
+    12	    STATEMENTS
+    13	    ;;
+    14	
+    15	  *)
+    16	    STATEMENTS
+    17	    ;;
+    18	esac
