@@ -1,0 +1,18 @@
+#!/bin/bash
+
+USER='\u'
+
+if [ ! $? ]
+then
+    ERR=']|['
+else
+    ERR="$?"
+fi
+
+HOST='\h'
+WDIR='\w'
+END='$ '
+
+PS1="$USER$ERR$HOST$WDIR$END"
+
+unset USER ERR HOST WDIR END
